@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.form input, .form textarea{
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: 1px solid lightgrey;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    width: 350px;
+    font-family: "Noto Sans", sans-serif;
+    ;
+    font-size: 16px;
+    
+    background-color: #343434;
+    
+      
+}
+body{
+    background-color: #343434;
+    display: block;
+}
+
+#sumbit{
+    color: #fff;
+    background-color: blue;
+    width: 100px;
+    height: 55px;
+    font-size: larger;
+    border: none;
+    outline: none;
+}
+#sumbit:hover{
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+
+}
+#cancel{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 55px;
+    font-size: larger;
+    border: none;
+    outline: none;
+}
+#cancel:hover{
+    background-color: blue;
+    color: #fff;
+    cursor: pointer;
+}
+input:hover{
+padding-left: 20px;
+
+}
+textarea:hover{
+   padding-left: 20px;
+
+}
